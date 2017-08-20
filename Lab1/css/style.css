@@ -1,0 +1,255 @@
+#HeaderContainer{
+    margin: 10px;
+    background-color: black;
+    display: block;
+}
+
+#HeaderTitle{
+    color: white;
+    overflow: auto;
+    display: block;
+}
+
+#HeaderTitle h1{
+    margin:30px 0 0 30px;
+    float: right;
+    width: 50%;
+    font-size: 3em;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+
+#HeaderTitle img
+{
+    margin:0;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+}
+
+footer 
+{
+    text-align: center;
+    clear:both;
+    color: white;
+    background-color: black;
+}
+
+.LeftContainer
+{   
+    float: left;
+    width: 31%;
+    height: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: auto;
+}
+.LeftContainer img
+{
+    width: 100%;
+    height: 66.7%;
+}
+.LeftContainer h2{
+    color: white;
+    padding-left: 1px; 
+    padding-right: 1px;
+    background-color: orange;
+}
+.LeftContainer p
+{
+    width: 100%;
+    height: 30%;
+    word-wrap:break-word;
+    padding-left: 1px;
+}
+
+.MainContainer
+{ 
+    float: left;
+    width: 31%;
+    height: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: auto;
+}
+.MainContainer img
+{
+    width: 100%;
+    height: 66.7%;
+}
+.MainContainer h2{
+    color: white;
+    padding-left: 1px; 
+    padding-right: 1px;
+    background-color: orange;
+}
+.MainContainer p
+{
+    width: 100%;
+    height: 66.7%;
+    word-wrap:break-word;
+    padding-left: 1px;
+}
+
+.RightContainer
+{
+    float: left;
+    width: 31%;
+    height: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: auto;
+}
+.RightContainer img
+{
+    width: 100%;
+    height: 66.7%;
+}
+.RightContainer h2{
+    color: white;
+    padding-left: 1px; 
+    padding-right: 1px;
+    background-color: orange;
+}
+.RightContainer p
+{
+    width: 100%;
+    height: 66.7%;
+    word-wrap:break-word;
+    padding-left: 1px;
+}
+
+@media screen 
+and (max-width: 960px)
+{
+#HeaderTitle h1{
+    margin:30px 0 0 30px;
+    float: right;
+    width: 50%;
+    font-size: 3em;
+    padding-right: 15%;
+}
+
+#HeaderTitle img
+{
+    margin:0;
+    float: left;
+    width: auto;
+    height: auto;
+}
+}
+
+@media screen 
+and (max-width: 768px)
+{
+#HeaderTitle h1{
+    margin:auto;
+    float: none;
+    width: 65%;
+    font-size: 3em;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+#HeaderTitle img
+{
+    margin: auto;
+    float: none;
+    display:block;    
+    padding-bottom: 3%;
+}
+
+.LeftContainer{
+    width: 46%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+
+.MainContainer{
+    width: 46%;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+}
+
+.RightContainer{
+    width: 48.25%;
+    float: left;
+    clear: both;
+    margin: 1%;
+    padding: 1%;
+}
+}
+
+
+@media screen 
+and (max-width: 320px)
+{
+#HeaderTitle h1{
+    margin:auto;
+    float: none;
+    width: 65%;
+    font-size: 3em;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-left: 0;
+}
+.LeftContainer{
+    width: 96.5%;
+    float: left;
+    clear: both;
+    margin: 1%;
+    padding: 1%;
+}
+
+.MainContainer{
+    width: 96.5%;
+    float: left;
+    clear: both;
+    margin: 1%;
+    padding: 1%;
+}
+
+.RightContainer{
+    width: 96.5%;
+    float: left;
+    clear: both;
+    margin: 1%;
+    padding: 1%;
+}
+}
