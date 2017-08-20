@@ -1,5 +1,5 @@
 # web-development
-This is an interactive web application, each Lab folder indicates different function:
+This is a process of interactive web application, each Lab folder indicates different function:
 ### Lab 1: Using the Breakpoints for a Responsive Page;
 ###  Lab 2: Prototyping Exercise, including:
         – A proper responsive layout;
