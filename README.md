@@ -1,11 +1,10 @@
 # web-development
-This is an interactive web application
-Each Lab folder indicates different function:
-  Lab 1: Using the Breakpoints for a Responsive Page;
-  Lab 2: Prototyping Exercise, including:
+This is an interactive web application, each Lab folder indicates different function:
+### Lab 1: Using the Breakpoints for a Responsive Page;
+###  Lab 2: Prototyping Exercise, including:
         – A proper responsive layout;
         – Relative measurements ;
-  Lab 3: 
+###  Lab 3: 
         – Properly connecting to database;
         – Properly handling all errors to prevent sensitive information from being displayed to the user ;
         – Properly preventing malicious code and SQL injections;
@@ -13,14 +12,14 @@ Each Lab folder indicates different function:
         – Properly storing user’s registration information into database;
         – Aesthetically pleasing and proper application of usability, U/X, and design principles;
         – Properly validating forms on the client-side;
-  Lab 4:
+###  Lab 4:
         – Separating DB login credentials and properly connecting site to your database;
         – Properly handling all errors to prevent sensitive information from being displayed to the user;
         – Properly using the mysql_fix_string() function;
         – Properly preparing SQL statements with the use of placeholders;
         – Properly using the htmlentities( ) function;
         – Using HTTP Headers to detect suspicious changes in an active session;
-  Lab 5: 
+###  Lab 5: 
         – Properly apply PHP’s security features to minimize site vulnerabilities when transmitting data over the web;
         - Create a confirmation page to be displayed after the user has filled-out and submitted their registration information;
               o The confirmation lists all the information the user has provided, without displaying any sensitive information.
